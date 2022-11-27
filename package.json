@@ -1,13 +1,16 @@
 {
-  
   "name": "near_rs_contract",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/HorseXInsectCoder/near_rs_contract.git",
   "author": "HorseXInsect <cyhzero@gmail.com>",
   "license": "MIT",
-
   "devDependencies": {
     "near-sdk-as": "^3.2.3"
+  },
+  "dependencies": {
+    "asbuild": "^0.2.0",
+    "assemblyscript": "^0.24.1",
+    "global": "^4.4.0"
   }
 }

@@ -9,4 +9,5 @@ export class Greeting {
     setGreeting(greeting: string): void {
         storage.set(Context.sender, greeting);
     }
+
 }
